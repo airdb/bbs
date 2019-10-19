@@ -3,7 +3,7 @@ import request from '@/common/js/request'
 // 得到技术频道列表
 export function getTechSquareApi (params) {
   return request({
-    url: '/api/techSquare/getAll',
+    url: '/apis/bbs/v1/techSquare/getAll',
     method: 'get',
     params
   })
@@ -12,7 +12,7 @@ export function getTechSquareApi (params) {
 // 得到轮播列表
 export function getCarouselApi (params) {
   return request({
-    url: '/api/carousel/getAll',
+    url: '/apis/bbs/v1/carousel/getAll',
     method: 'get',
     params
   })
@@ -21,7 +21,7 @@ export function getCarouselApi (params) {
 // 获取通知
 export function getNoticesApi () {
   return request({
-    url: '/api/notices/get',
+    url: '/apis/bbs/v1/notices/get',
     method: 'get'
   })
 }
@@ -29,7 +29,7 @@ export function getNoticesApi () {
 // 得到文章列表
 export function getArticleListApi (params) {
   return request({
-    url: 'api/Article/getList',
+    url: 'apis/bbs/v1/Article/getList',
     method: 'get',
     params
   })
@@ -38,7 +38,7 @@ export function getArticleListApi (params) {
 // 获取文章详情
 export function getArticleInfoApi (id) {
   return request({
-    url: `api/Article/getRow/${id}`,
+    url: `apis/bbs/v1/Article/getRow/${id}`,
     method: 'get'
   })
 }

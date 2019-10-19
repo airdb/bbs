@@ -3,7 +3,7 @@ import request from '@/common/js/request'
 // 添加评论
 export function createArticleCommentsApi (data) {
   return request({
-    url: '/api/articleComments/create',
+    url: '/apis/bbs/v1/articleComments/create',
     method: 'post',
     data
   })
@@ -12,7 +12,7 @@ export function createArticleCommentsApi (data) {
 // 删除评论
 export function deleteArticleCommentsApi (id) {
   return request({
-    url: `/api/articleComments/delete/${id}`,
+    url: `/apis/bbs/v1/articleComments/delete/${id}`,
     method: 'delete'
   })
 }
@@ -20,7 +20,7 @@ export function deleteArticleCommentsApi (id) {
 // 获取评论列表
 export function getArticleCommentsApi (params) {
   return request({
-    url: '/api/articleComments/getAll',
+    url: '/apis/bbs/v1/articleComments/getAll',
     method: 'get',
     params
   })

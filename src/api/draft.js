@@ -3,7 +3,7 @@ import request from '@/common/js/request'
 // 获取草稿数量
 export function getDraftTotalsApi () {
   return request({
-    url: `api/draft/getTotals`,
+    url: `apis/bbs/v1/draft/getTotals`,
     method: 'get'
   })
 }
@@ -11,7 +11,7 @@ export function getDraftTotalsApi () {
 // 获取草稿
 export function getDraftApi () {
   return request({
-    url: `api/draft/getAll`,
+    url: `apis/bbs/v1/draft/getAll`,
     method: 'get'
   })
 }
@@ -19,7 +19,7 @@ export function getDraftApi () {
 // 舍弃草稿
 export function giveUpDraftApi (data) {
   return request({
-    url: `api/draft/giveUp`,
+    url: `apis/bbs/v1/draft/giveUp`,
     method: 'delete',
     data
   })
@@ -28,7 +28,7 @@ export function giveUpDraftApi (data) {
 // 舍弃全部草稿
 export function giveUpAllDraftApi () {
   return request({
-    url: `api/draft/giveUpAll`,
+    url: `apis/bbs/v1/draft/giveUpAll`,
     method: 'delete'
   })
 }
