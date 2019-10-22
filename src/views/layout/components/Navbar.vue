@@ -2,8 +2,8 @@
   <div class="LLLyh-header">
     <div class="navbar">
       <p class="logo" @click="$router.push('/')">
-        <span class="LLL">LLL</span>
-        <span class="yh">yh</span>
+        <span class="Air">LLL</span>
+        <span class="db">yh</span>
       </p>
       <div class="mid">
         <navbar-item />

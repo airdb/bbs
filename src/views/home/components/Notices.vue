@@ -14,8 +14,8 @@ export default {
   data () {
     return {
       notices: {
-        content: '欢迎来到LLyh',
-        href: 'https://github.com/2017coding'
+        content: '欢迎使用bbs',
+        href: 'https://github.com/airdb/bbs'
       }
     }
   },

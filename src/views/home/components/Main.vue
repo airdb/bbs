@@ -6,7 +6,7 @@
           <!-- <span>{{item.title}}</span> -->
           <img :src="item.image" style="width: 100%" @click="handClick('carousel', item)">
         </el-carousel-item>
-        <p v-if="!carouselList.length" class="no-carousel">欢迎来到LLyh</p>
+        <p v-if="!carouselList.length" class="no-carousel">欢迎使用 BBS</p>
       </el-carousel>
     </div>
     <article-config />
