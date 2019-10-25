@@ -3,7 +3,7 @@ import request from '@/common/js/request'
 // 得到技术频道列表
 export function getTechSquareApi (params) {
   return request({
-    url: '/apis/bbs/v1/techSquare/getAll',
+    url: '/apis/bbs/v1/square/list',
     method: 'get',
     params
   })
