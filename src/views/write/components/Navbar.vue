@@ -3,8 +3,8 @@
     <nav class="navbar">
       <div class="left">
         <p class="logo" @click="$router.push('/')">
-          <span class="Air">LLL</span>
-          <span class="db">yh</span>
+          <span class="LLL">air</span>
+          <span class="yh">db</span>
         </p>
         <p class="title">{{ title }}</p>
       </div>
