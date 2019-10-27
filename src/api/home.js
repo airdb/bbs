@@ -29,7 +29,7 @@ export function getNoticesApi () {
 // 得到文章列表
 export function getArticleListApi (params) {
   return request({
-    url: '/Article/getList',
+    url: '/v1/article/list',
     method: 'get',
     params
   })
