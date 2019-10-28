@@ -21,7 +21,7 @@ export function getCarouselApi (params) {
 // 获取通知
 export function getNoticesApi () {
   return request({
-    url: '/notices/get',
+    url: '/v1/notice/list',
     method: 'get'
   })
 }
