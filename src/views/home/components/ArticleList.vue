@@ -22,7 +22,7 @@
           </div>
           <div class="author" @click.stop="handleClick('clickAuthor', item)">{{ item.create_user_name }}</div>
           <span class="dot" style="padding: 0 5px">·</span>
-          <div class="release-time">{{ $fn.timeView(item.create_time) }}</div>
+          <div class="release-time">{{ $fn.timeView(item.created_time) }}</div>
         </div>
       </li>
     </template>
