@@ -12,7 +12,7 @@ export function getTechSquareApi (params) {
 // 得到轮播列表
 export function getCarouselApi (params) {
   return request({
-    url: '/carousel/getAll',
+    url: '/v1/carousel/list',
     method: 'get',
     params
   })
